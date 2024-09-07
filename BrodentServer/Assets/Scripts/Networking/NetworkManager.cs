@@ -2,10 +2,30 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+// SERVER SIDE NETWORKMANAGER
 using System.Collections;
 using System.Collections.Generic;
 using Riptide;
+using Riptide.Utils;
 using UnityEngine;
+
+/// <summary>
+/// Enumerator Id's of Server to Client requests.
+/// </summary>
+public enum ServerToClientId : ushort
+{
+    /// <summary> Sends client the tick value to ensure they are synced. </summary>
+    Sync = 1,
+}
+
+/// <summary>
+/// Enumerator Id's of Client to Server requests.
+/// </summary>
+public enum ClientToServerId : ushort
+{
+    /// <summary> Receives initial login request
+    Login = 1,
+}
 
 /// <summary>
 /// Public definition of the NetworkManager class for the server.
