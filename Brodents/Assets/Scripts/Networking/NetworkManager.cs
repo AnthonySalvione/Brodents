@@ -3,8 +3,10 @@
 // </copyright>
 
 // CLIENT SIDE NETWORKMANAGER
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using Riptide;
 using Riptide.Utils;
 using UnityEngine;
@@ -16,6 +18,9 @@ public enum ServerToClientId : ushort
 {
     /// <summary> Ensures client is on same tick as server. </summary>
     Sync = 1,
+
+    /// <summary> Sends the necessary information for the Client to login.
+    SendInfo,
 }
 
 /// <summary>
@@ -25,6 +30,9 @@ public enum ClientToServerId : ushort
 {
     /// <summary> Sends initial login request. </summary>
     Login = 1,
+
+    /// <summary> If login reaches destination, call DidConnect. </summary>
+    RequestInfo,
 }
 
 /// <summary>
@@ -42,7 +50,7 @@ public class NetworkManager : MonoBehaviour
     private ushort tickDivergenceTolerance = 1;
 
     /// <summary>
-    /// Gets the private singleton and set's the public static singleton to match.
+    /// Gets the private singleton and sets the public static singleton to match.
     /// </summary>
     public static NetworkManager Singleton
     {
@@ -98,6 +106,53 @@ public class NetworkManager : MonoBehaviour
         }
     }
 
+    [MessageHandler((ushort)ServerToClientId.Sync)]
+    private static void Sync(Message message)
+    {
+        Singleton.SetTick(message.GetUShort());
+    }
+
+    private void FixedUpdate()
+    {
+        this.Client.Update();
+        this.ServerTick++;
+    }
+
+    /// <summary>
+    /// Executes upon the first time this class file is opened.
+    /// </summary>
+    private void Awake()
+    {
+        if (!Singleton)
+        {
+            Singleton = this;
+        }
+
+        DontDestroyOnLoad(this);
+    }
+
+    /// <summary>
+    /// Also executes upon first time file is opened, but after Awake().
+    /// </summary>
+    private void Start()
+    {
+        RiptideLogger.Initialize(Debug.Log, Debug.Log, Debug.LogWarning, Debug.LogError, false);
+
+        this.Client = new Client();
+        this.Client.Connected += this.DidConnect;
+        this.Client.ConnectionFailed += this.FailedToConnect;
+        this.Client.ClientDisconnected += this.PlayerLeft;
+        this.Client.Disconnected += this.DidDisconnect;
+
+        this.Connect();
+
+        this.ServerTick = 2;
+    }
+
+    /// <summary>
+    /// Takes serverTick as a parameter and makes client's tick match it.
+    /// </summary>
+    /// <param name="serverTick"> Tick value of the server. </param>
     private void SetTick(ushort serverTick)
     {
         if (Mathf.Abs(this.ServerTick - serverTick) > this.tickDivergenceTolerance)
@@ -105,5 +160,26 @@ public class NetworkManager : MonoBehaviour
             Debug.Log($"Client tick: {this.ServerTick} -> {serverTick}");
             this.ServerTick = serverTick;
         }
+    }
+
+    private void Connect()
+    {
+        this.Client.Connect($"{"192.168.0.179"}:{"7777"}");
+    }
+
+    private void DidConnect(object sender, EventArgs e)
+    {
+    }
+
+    private void DidDisconnect(object sender, EventArgs e)
+    {
+    }
+
+    private void FailedToConnect(object sender, EventArgs e)
+    {
+    }
+
+    private void PlayerLeft(object sender, ClientDisconnectedEventArgs e)
+    {
     }
 }
