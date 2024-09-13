@@ -1,5 +1,5 @@
-// <copyright file="NetworkManager.cs" company="PlaceholderCompany">
-// Copyright (c) PlaceholderCompany. All rights reserved.
+// <copyright file="NetworkManager.cs" company="Brodents">
+// Copyright (c) Brodents. All rights reserved.
 // </copyright>
 
 // SERVER SIDE NETWORKMANAGER
@@ -31,6 +31,9 @@ public enum ClientToServerId : ushort
 
     /// <summary> Client requests info after initial login.
     RequestInfo,
+
+    /// <summary> Contains which inputs are currently being pressed. </summary>
+    Input,
 }
 
 /// <summary>
@@ -38,10 +41,14 @@ public enum ClientToServerId : ushort
 /// </summary>
 public class NetworkManager : MonoBehaviour
 {
+    /// <summary> The static instance of itself referenced as a singleton.
     private static NetworkManager singleton;
 
+    /// <summary> Ushort that contains the port of IP address.
     [SerializeField]
     private ushort port;
+
+    /// <summary> Ushort that contains the max amount of client connections.
     [SerializeField]
     private ushort maxClientCount;
 
@@ -75,11 +82,17 @@ public class NetworkManager : MonoBehaviour
     /// </summary>
     public ushort CurrentTick { get; private set; }
 
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
     private void Awake()
     {
         Singleton = this;
     }
 
+    /// <summary>
+    /// Start is called just before any of the Update methods is called for the first time.
+    /// </summary
     private void Start()
     {
         Application.targetFrameRate = 60;
@@ -91,6 +104,9 @@ public class NetworkManager : MonoBehaviour
         this.Server.Start(this.port, this.maxClientCount);
     }
 
+    /// <summary>
+    /// This sends the inputs at fixed intervals and also switches them off.
+    /// </summary>
     private void FixedUpdate()
     {
         this.Server.Update();
@@ -103,19 +119,35 @@ public class NetworkManager : MonoBehaviour
         this.CurrentTick++;
     }
 
+    /// <summary>
+    /// Sent to all game objects before the application is quit.
+    /// </summary>
     private void OnApplicationQuit()
     {
         this.Server.Stop();
     }
 
+    /// <summary>
+    /// Event called by Riptide Networking.
+    /// </summary>
+    /// <param name="sender"> Object. </param>
+    /// <param name="e"> Event. </param>
     private void NewPlayerConnected(object sender, ServerConnectedEventArgs e)
     {
     }
 
+    /// <summary>
+    /// Event called by riptide networking.
+    /// </summary>
+    /// <param name="sender"> Object. </param>
+    /// <param name="e"> Event. </param>
     private void UserLeft(object sender, ServerDisconnectedEventArgs e)
     {
     }
 
+    /// <summary>
+    /// Sends the current tick of the server to all connected clients.
+    /// </summary>
     private void SendSync()
     {
         Message message = Message.Create(MessageSendMode.Unreliable, (ushort)ServerToClientId.Sync);

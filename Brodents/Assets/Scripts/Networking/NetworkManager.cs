@@ -1,5 +1,5 @@
-// <copyright file="NetworkManager.cs" company="PlaceholderCompany">
-// Copyright (c) PlaceholderCompany. All rights reserved.
+// <copyright file="NetworkManager.cs" company="Brodents">
+// Copyright (c) Brodents. All rights reserved.
 // </copyright>
 
 // CLIENT SIDE NETWORKMANAGER
@@ -33,6 +33,9 @@ public enum ClientToServerId : ushort
 
     /// <summary> If login reaches destination, call DidConnect. </summary>
     RequestInfo,
+
+    /// <summary> Contains which inputs are currently being pressed. </summary>
+    Input,
 }
 
 /// <summary>
@@ -40,12 +43,17 @@ public enum ClientToServerId : ushort
 /// </summary>
 public class NetworkManager : MonoBehaviour
 {
+    /// <summary> The static instance of itself referenced as a singleton.
     private static NetworkManager singleton;
+
+    /// <summary> Contains the current server tick according to the last update.
     private ushort serverTick;
 
+    /// <summary> Ticks between position update value.
     [SerializeField]
     private ushort ticksBetweenPositionUpdates = 2;
 
+    /// <summary> Tick divergence tolerance value.
     [SerializeField]
     private ushort tickDivergenceTolerance = 1;
 
@@ -106,12 +114,19 @@ public class NetworkManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Receives the tick value from the server through the sync message.
+    /// </summary>
+    /// <param name="message"> Contains the current tick of the server. </param>
     [MessageHandler((ushort)ServerToClientId.Sync)]
     private static void Sync(Message message)
     {
         Singleton.SetTick(message.GetUShort());
     }
 
+    /// <summary>
+    /// This function is called every fixed framerate frame, if the MonoBehaviour is enabled.
+    /// </summary>
     private void FixedUpdate()
     {
         this.Client.Update();
@@ -119,7 +134,7 @@ public class NetworkManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Executes upon the first time this class file is opened.
+    /// Awake is called when the script instance is being loaded.
     /// </summary>
     private void Awake()
     {
@@ -132,8 +147,8 @@ public class NetworkManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Also executes upon first time file is opened, but after Awake().
-    /// </summary>
+    /// Start is called just before any of the Update methods is called for the first time.
+    /// </summary
     private void Start()
     {
         RiptideLogger.Initialize(Debug.Log, Debug.Log, Debug.LogWarning, Debug.LogError, false);
@@ -162,23 +177,46 @@ public class NetworkManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Initial connection attempt.
+    /// </summary>
     private void Connect()
     {
         this.Client.Connect($"{"192.168.0.179"}:{"7777"}");
     }
 
+    /// <summary>
+    /// Is called after receiving feedback from the server.
+    /// </summary>
+    /// <param name="sender"> Object. </param>
+    /// <param name="e"> Event. </param>
     private void DidConnect(object sender, EventArgs e)
     {
     }
 
+    /// <summary>
+    /// Is called after disconnecting from server.
+    /// </summary>
+    /// <param name="sender"> Object. </param>
+    /// <param name="e"> Event. </param>
     private void DidDisconnect(object sender, EventArgs e)
     {
     }
 
+    /// <summary>
+    /// Is called if the Connect was called and received no feedback.
+    /// </summary>
+    /// <param name="sender"> Object. </param>
+    /// <param name="e"> Event. </param>
     private void FailedToConnect(object sender, EventArgs e)
     {
     }
 
+    /// <summary>
+    /// Called from server if another player left.
+    /// </summary>
+    /// <param name="sender"> Object. </param>
+    /// <param name="e"> Event. </param>
     private void PlayerLeft(object sender, ClientDisconnectedEventArgs e)
     {
     }
