@@ -3,8 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A20B49A4-8694-DA3C-2A88-7F96ED353B77}|Assembly-CSharp.csproj|c:\\users\\antho\\onedrive\\desktop\\githubrepos\\brodents\\brodents\\assets\\scripts\\networking\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A20B49A4-8694-DA3C-2A88-7F96ED353B77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\networking\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A20B49A4-8694-DA3C-2A88-7F96ED353B77}|Assembly-CSharp.csproj|c:\\users\\antho\\onedrive\\desktop\\githubrepos\\brodents\\brodents\\assets\\scripts\\player\\interpolator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20B49A4-8694-DA3C-2A88-7F96ED353B77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\interpolator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20B49A4-8694-DA3C-2A88-7F96ED353B77}|Assembly-CSharp.csproj|c:\\users\\antho\\onedrive\\desktop\\githubrepos\\brodents\\brodents\\assets\\scripts\\player\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20B49A4-8694-DA3C-2A88-7F96ED353B77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A20B49A4-8694-DA3C-2A88-7F96ED353B77}|Assembly-CSharp.csproj|C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\assets\\scripts\\networking\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -14,19 +27,25 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,37 +55,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
-              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
-              "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAG0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T22:44:00.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ClientInfo.cs",
               "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
               "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
               "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T22:43:21.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs",
@@ -79,20 +85,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Interpolator.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs",
+              "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T22:47:42.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAwwMIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T19:13:47.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwGsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T22:44:00.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T22:31:42.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T22:36:25.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\ClientInfo.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T22:43:21.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Interpolator.cs",
               "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Interpolator.cs",
@@ -111,46 +182,72 @@
               "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs",
               "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs",
               "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\NetworkManager.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAAL8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwMIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T19:13:47.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\Projects\\Unity Project\\Pullman2D\\Assets\\Scripts\\Menu\\AccountInfo.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAG0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T22:44:00.969Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Networking\\Character.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Networking\\Character.cs",
-              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Networking\\Character.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Networking\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Player\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Character.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Player\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:01:44.991Z",
+              "WhenOpened": "2024-09-13T18:28:29.883Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NetworkManager.cs",
-              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Networking\\NetworkManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Networking\\NetworkManager.cs",
-              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Networking\\NetworkManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Networking\\NetworkManager.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowHIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Interpolator.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Player\\Interpolator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Interpolator.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Player\\Interpolator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Interpolator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T18:28:25.529Z",
+              "WhenOpened": "2024-09-13T18:28:27.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Networking\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Networking\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\Antho\\OneDrive\\Desktop\\GIthubRepos\\Brodents\\Brodents\\Assets\\Scripts\\Networking\\NetworkManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Networking\\NetworkManager.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAUwJQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:28:25.529Z",
+              "EditorCaption": ""
             }
           ]
         }
