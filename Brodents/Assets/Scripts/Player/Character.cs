@@ -13,10 +13,12 @@ using UnityEngine;
 /// </summary>
 public class Character : MonoBehaviour
 {
-    /// <summary>
-    /// The list of inputs to send to server.
-    /// </summary>
+    /// <summary> The list of inputs to send to server.
     private bool[] inputs;
+
+    /// <summary> Contains the interpolator.
+    [SerializeField]
+    private Interpolator interpolator;
 
     /// <summary>
     /// Start is called just before any of the Update methods is called for the first time.
@@ -68,6 +70,12 @@ public class Character : MonoBehaviour
         Message message = Message.Create(MessageSendMode.Unreliable, ClientToServerId.Input);
         message.AddBools(this.inputs);
         NetworkManager.Singleton.Client.Send(message);
+    }
+
+    [MessageHandler((ushort)ServerToClientId.PlayerMovement)]
+    private static void PlayerMovement(Message message)
+    {
+
     }
 
     #endregion

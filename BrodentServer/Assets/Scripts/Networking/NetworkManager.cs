@@ -19,6 +19,9 @@ public enum ServerToClientId : ushort
 
     /// <summary> Sends the necessary information for the Client to login.
     SendInfo,
+
+    /// <summary> Sends coordinents of player from server.
+    PlayerMovement,
 }
 
 /// <summary>
